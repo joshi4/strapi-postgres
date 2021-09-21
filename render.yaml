@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: strapi-joshi4
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
@@ -25,5 +25,5 @@ services:
         generateValue: true
 
 databases:
-  - name: strapi
+  - name: strapi-joshi4
     plan: starter
